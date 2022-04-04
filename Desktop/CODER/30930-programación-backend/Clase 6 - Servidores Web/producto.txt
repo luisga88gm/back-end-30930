@@ -1,0 +1,1 @@
+[{"title":"test product","price":34.5,"thumbnail":"thumbnail.jpg","id":1},{"title":"test product 2","price":34.5,"thumbnail":"thumbnail.jpg","id":2}]
