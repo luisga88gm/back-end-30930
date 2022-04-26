@@ -1,0 +1,56 @@
+[
+	{
+		"id": "8bf17833-3370-46e2-a62a-3707cd1a3b7f",
+		"timestamp": 1650661023938,
+		"productos": []
+	},
+	{
+		"id": "202fefda-b84d-4420-9932-5be3b07c2c23",
+		"timestamp": 1650661027589,
+		"productos": [
+			{
+				"id": "071df419-6963-4503-851f-558d766f5c60",
+				"timestamp": 1650418915596,
+				"nombre": "Probando 1",
+				"codigo": "071df419-6963-4503-851f-558d766f5c60",
+				"foto": "http://tapa.jpgddd",
+				"precio": "200",
+				"descripcion": "algovaaca",
+				"stock": "30",
+				"cant": 30
+			},
+			{
+				"id": "1d411c51-5e65-4649-a4c0-7b92756aa25d",
+				"timestamp": 1650419230109,
+				"nombre": "Probando 2",
+				"descripcion": "algovoyaponeraca",
+				"codigo": "1d411c51-5e65-4649-a4c0-7b92756aa25d",
+				"foto": "http://tapa.jpgddd",
+				"precio": "200",
+				"cant": 8
+			}
+		]
+	},
+	{
+		"id": "905a95ea-b9eb-4023-b2db-bc1dd584b4ae",
+		"timestamp": 1650661083254,
+		"productos": [
+			{
+				"id": "4abca11e-19c3-486b-9554-602878f369f9",
+				"timestamp": 1650418995886,
+				"nombre": "Tenedor",
+				"descripcion": "tenedor de acero inoxidable",
+				"codigo": "4abca11e-19c3-486b-9554-602878f369f9",
+				"foto": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fhttp2.mlstatic.com%2FD_NQ_NP_638354-MLA46092568083_052021-O.jpg&imgrefurl=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-921535838-tramontina-store-tenedor-mesa-amazonas-12-pz-_JM&tbnid=uysijIS_vqqisM&vet=12ahUKEwjd_syWxLD3AhWvNbkGHZxFBNQQMygDegUIARDRAQ..i&docid=hOV1BY7pYLUevM&w=500&h=233&itg=1&q=store%20images%20tenedor&ved=2ahUKEwjd_syWxLD3AhWvNbkGHZxFBNQQMygDegUIARDRAQ",
+				"precio": "150",
+				"stock": "5",
+				"cant": 2
+			}
+		]
+	},
+	{
+		"id": "89e670e7-23af-410a-8c65-7cfe13c805b2",
+		"timestamp": 1650827114280,
+		"productos": []
+	}
+]
