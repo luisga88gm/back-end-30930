@@ -1,0 +1,17 @@
+[
+	{
+		"email": "lugam@hotmail.com",
+		"mensaje": "hola",
+		"fecha": "[08/05/2022 14:08:06]"
+	},
+	{
+		"email": "mail@mail.com",
+		"mensaje": "hola! como estas?",
+		"fecha": "[08/05/2022 14:08:20]"
+	},
+	{
+		"email": "maxilopez704@hotmail.com",
+		"mensaje": "hola gente!",
+		"fecha": "[08/05/2022 14:08:46]"
+	}
+]

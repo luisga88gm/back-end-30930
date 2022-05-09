@@ -1,0 +1,11 @@
+form(id="formChat" class="ms-4 mt-5" style="width:50%;")
+    div(class="mb-3")
+        label(for="email" class="form-label") Email:
+        input(type="email" id="email" name="email" class="form-control" required)
+    div(class="mb-3")
+        label(for="mensanje" class="form-label") Mensaje:
+        input(type="text" id="mensaje" name="mensaje" class="form-control" required) 
+    div
+        button(id="enviarMensaje" type="submit" class="btn btn-primary") ENVIAR
+    div(class="container-fluid row")
+        div(name="listaMensajes" id="listaMensajes" class="listaMensajes")
