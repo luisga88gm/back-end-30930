@@ -3,10 +3,6 @@ const router = express.Router();
 const util=require('util');
 const { normalize, schema} = require('normalizr');
 const {modeloChat} = require ('../models/mensajes');
-// const knex = require('knex');
-// const optionsSQLite =require('../../options/sqlite3');
-
-// const tableName = 'chatHistoria'
 
 const author = new schema.Entity('author');
 

@@ -17,7 +17,7 @@ const listaChat= async()=>{
         return listaMensajes
     }
     catch(err){
-        console.log('Error al recuperar los mensajes', err)
+        console.log('Error al recuperar los mensajes!', err)
         return (listaMensajes.mensajes=[])
     }
 }
@@ -30,7 +30,7 @@ const Productos = async ()=>{
         return produc
     }
     catch(err){
-        console.log('Error al recuperar los productos', err)
+        console.log('Error al recuperar los productos!', err)
         resp.json({msg: err})
     }
 }

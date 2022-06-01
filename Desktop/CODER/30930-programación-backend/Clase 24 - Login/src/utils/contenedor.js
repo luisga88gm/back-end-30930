@@ -47,10 +47,6 @@ class Contenedor{
         return 
     };
 
-    // randomIndex (min,max){
-        // return Math.floor(Math.random() * (max - min) + min);
-    // };
-
     generaId(){
         const cantProd=this.productos.length;
         let ultimoId
@@ -67,13 +63,6 @@ class Contenedor{
         return await this.connection(tableName).where('id', id);
     };
     
-    // getRandom(){
-        // const min = 0; 
-        // const max = this.productos.length;
-        // const idx= randomIndex(min, max);
-        // return (this.productos[idx]);
-    // }
-
     static async getAll(){ //Devuelve un array con los objetos presentes en el archivo 
         const options = optionsMySQL;
         this.connection = knex(options);
@@ -91,12 +80,6 @@ class Contenedor{
             return null
         }
     };
-
-    // async deleteAll(){ // Elimina todos los objetos presentes en el archivo
-        // this.productos.length=0;
-        // const productosStringified = JSON.stringify(this.productos, null, '\t');
-        // await fs.writeFile(ruta, productosStringified)
-    // };
 };
 
 module.exports = router;
