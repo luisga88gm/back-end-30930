@@ -1,0 +1,36 @@
+{
+  "name": "clase-26---iniciosesion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "knex": "^2.1.0",
+    "luxon": "^2.4.0",
+    "mongoose": "^6.3.5",
+    "mysql": "^2.18.1",
+    "normalizr": "^3.6.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "nodemon": "^2.0.16"
+  }
+}
