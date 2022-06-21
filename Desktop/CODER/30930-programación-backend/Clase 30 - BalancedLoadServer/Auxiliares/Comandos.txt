@@ -1,0 +1,62 @@
+
+
+//Ejecutar el servidor con Nodemon en modo Fork
+
+nodemon src/index.js  // sin parametros de entrada se ejecuta fork por defecto
+
+nodemon src/index.js -m=fork
+
+
+//Ejecutar el servidor con Nodemon en modo Cluster
+
+nodemon src/index.js -m=fork
+
+
+//Ejecutar el servidor con Forever
+
+forever start --watch src/index.js -p=8081 -m=cluster
+
+forever start --watch src/index.js -p=8082 -m=fork
+
+forever start --watch src/index.js
+
+
+//Listar Procesos con Forever
+
+forever list
+
+
+//Listar Procesos con SO
+
+tasklist 
+
+
+//Detener todos los Procesos de Forever
+
+forever stopall
+
+//Ejecutar servidor con PM2 en modo fork
+
+pm2 start src/index.js --watch
+
+//Ejecutar servidor con PM2 en modo cluster
+
+pm2 start src/index.js --name="modoCluster" --watch -i max
+
+
+//Listar Procesos con PM2
+
+pm2 list
+
+
+//Listar Procesos con SO
+
+tasklist 
+
+//NGINX
+
+para probara la parte de nginx ejecutar "npm run prod"
+
+
+
+

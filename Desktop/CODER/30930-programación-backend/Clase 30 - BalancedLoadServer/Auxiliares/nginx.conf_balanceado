@@ -1,0 +1,29 @@
+
+events {
+
+}
+
+
+http {
+   include       mime.types;
+
+   upstream app2 {
+      server localhost:8082;
+      server localhost:8083;
+      server localhost:8084;
+      server localhost:8085;
+   }
+
+   server {
+         listen       80;
+         server_name  myApp;
+
+         location /api/randoms {
+            proxy_pass http://app2;
+        }
+        
+         location / {
+            proxy_pass http://localhost:8080;
+        }
+   }
+}
