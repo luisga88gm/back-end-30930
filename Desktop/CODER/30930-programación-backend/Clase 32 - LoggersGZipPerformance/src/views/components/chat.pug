@@ -1,0 +1,26 @@
+form(id="formChat" class="ms-4 mt-5" style="width:50%;")
+    div(class="mb-3")
+        label(for="email" class="form-label") Email:
+        input(type="email" id="email" name="email" class="form-control" required)
+    div(class="mb-3")
+        label(for="nombre" class="form-label") Nombre:
+        input(type="text" id="nombre" name="nombre" class="form-control" required)
+    div(class="mb-3")
+        label(for="apellido" class="form-label") Apellido:
+        input(type="text" id="apellido" name="apellido" class="form-control" required)
+    div(class="mb-3")
+        label(for="edad" class="form-label") Edad:
+        input(type="number" id="edad" name="edad" class="form-control" required)
+    div(class="mb-3")
+        label(for="alias" class="form-label") Alias:
+        input(type="text" id="alias" name="alias" class="form-control" required)
+    div(class="mb-3")
+         label(for="avatar" class="form-label") Avatar:
+         input(type="url" id="avatar" name="avatar" class="form-control" required)
+    div(class="mb-3")
+        label(for="mensanje" class="form-label") Mensaje:
+        input(type="text" id="mensaje" name="mensaje" class="form-control" required) 
+    div
+        button(id="enviarMensaje" type="submit" class="btn btn-primary") ENVIAR
+    div(class="container-fluid row")
+        div(name="listaMensajes" id="listaMensajes" class="listaMensajes")
