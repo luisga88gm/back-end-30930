@@ -1,4 +1,4 @@
-Desafio Clase 34 - ON CLOUD PROJECT
+Desafio Clase 34 - ON CLOUD PROYECT
 
 El proyecto usa 2 bases de datos:
 

@@ -7,10 +7,10 @@ class Randoms{
     constructor(cant){
         for(let i=0; i<cant; i+=1){
             let num=this.randomNum(min, max);
-            // console.log('numero aleatorio', num)
+            console.log('numero aleatorio', num)
             let idx=this.numeros.findIndex(n=>n.num==num);
-            // console.log('numeros_idx', this.numeros)
-            // console.log('idx', idx)
+            console.log('numeros_idx', this.numeros)
+            console.log('idx', idx)
             if (idx===-1){
                 this.numeros.push({
                     num: num,
@@ -19,7 +19,7 @@ class Randoms{
                 this.numeros[idx].cant++
             }
         }
-        // console.log('Numeros: ', this.numeros)    
+        console.log('Numeros: ', this.numeros)    
     };
 
     randomNum (min,max){
@@ -34,7 +34,7 @@ class Randoms{
                 return -1
             }
         })
-        // console.log('numeros ordenados', this.numeros)
+        console.log('numeros ordenados', this.numeros)
     }
 };
 

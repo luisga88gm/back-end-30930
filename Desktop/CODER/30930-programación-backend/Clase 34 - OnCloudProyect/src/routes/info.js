@@ -1,10 +1,9 @@
 const express =require('express');
 const { Server } = require('http');
 const router = express.Router();
-const os = require('os');
+const os = require('os')
 const compression=require('compression')
-
-router.get('/', (req, res)=>{
+router.get('/', compression(), (req, res)=>{
     const info={
         args: process.argv.slice(2),
         nombrePlataforma: process.platform ,
