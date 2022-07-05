@@ -1,0 +1,301 @@
+Statistical profiling result from Profiling_artillery_SConsole.log, (15017 ticks, 4 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  14082   93.8%          C:\WINDOWS\SYSTEM32\ntdll.dll
+    850    5.7%          C:\Program Files\nodejs\node.exe
+      3    0.0%          C:\WINDOWS\System32\KERNELBASE.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      6    0.0%    7.3%  LazyCompile: *walkAST C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-walk\index.js:4:17
+      5    0.0%    6.1%  LazyCompile: *recurse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\babel-walk\lib\index.js:73:26
+      3    0.0%    3.7%  LazyCompile: *parseExprOp C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:12299:14
+      2    0.0%    2.4%  LazyCompile: *walk.includeDependencies C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-filters\lib\handle-filters.js:14:13
+      2    0.0%    2.4%  LazyCompile: *visitTag C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:613:21
+      2    0.0%    2.4%  LazyCompile: *recurse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\babel-walk\lib\index.js:110:26
+      2    0.0%    2.4%  LazyCompile: *parseChar C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\character-parser\index.js:76:19
+      2    0.0%    2.4%  LazyCompile: *next C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:1912:7
+      2    0.0%    2.4%  LazyCompile: *isConstant C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\constantinople\lib\index.js:332:20
+      2    0.0%    2.4%  LazyCompile: *getTokenFromCode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:2494:19
+      2    0.0%    2.4%  LazyCompile: *findGlobals C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\globals.js:166:21
+      2    0.0%    2.4%  LazyCompile: *eat C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:1925:6
+      2    0.0%    2.4%  LazyCompile: *advance C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1656:20
+      1    0.0%    1.2%  RegExp: d{1,4}|M{1,4}|YY(?:YY)?|S{1,3}|Do|ZZ|Z|([HhMsDm])\1?|[aA]|"[^"]*"|'[^']*'
+      1    0.0%    1.2%  RegExp: ^block +([^\n]+)
+      1    0.0%    1.2%  RegExp: ^\/signup\/?$
+      1    0.0%    1.2%  RegExp: ^(?:\| ?| )([^\n]+)
+      1    0.0%    1.2%  RegExp: ^#([\w-]+)
+      1    0.0%    1.2%  RegExp: \r\n|\r
+      1    0.0%    1.2%  LazyCompile: *toConstant C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\constantinople\lib\index.js:9:24
+      1    0.0%    1.2%  LazyCompile: *toAssignable C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:11596:15
+      1    0.0%    1.2%  LazyCompile: *stringify C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\js-stringify\index.js:4:19
+      1    0.0%    1.2%  LazyCompile: *startNode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:4277:12
+      1    0.0%    1.2%  LazyCompile: *skipSpace C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:2079:12
+      1    0.0%    1.2%  LazyCompile: *resolve node:path:158:10
+      1    0.0%    1.2%  LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1    0.0%    1.2%  LazyCompile: *pp$9.nextToken C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\acorn\dist\acorn.js:4391:28
+      1    0.0%    1.2%  LazyCompile: *pp$9.next C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\acorn\dist\acorn.js:4347:23
+      1    0.0%    1.2%  LazyCompile: *parseMember C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:12600:14
+      1    0.0%    1.2%  LazyCompile: *parseMaybeAssignAllowIn C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:12170:26
+      1    0.0%    1.2%  LazyCompile: *parseMaybeAssign C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:12180:19
+      1    0.0%    1.2%  LazyCompile: *parseLiteralAtNode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:13207:21
+      1    0.0%    1.2%  LazyCompile: *parseExprSubscripts C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:12535:22
+      1    0.0%    1.2%  LazyCompile: *parseExprAtom C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:12800:16
+      1    0.0%    1.2%  LazyCompile: *parse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\character-parser\index.js:28:15
+      1    0.0%    1.2%  LazyCompile: *normalizeString node:path:66:25
+      1    0.0%    1.2%  LazyCompile: *normalize node:path:304:12
+      1    0.0%    1.2%  LazyCompile: *indent C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1487:19
+      1    0.0%    1.2%  LazyCompile: *getOptions C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\acorn\dist\acorn.js:407:22
+      1    0.0%    1.2%  LazyCompile: *finishNodeAt C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:4293:15
+      1    0.0%    1.2%  LazyCompile: *digest node:internal/crypto/hash:115:40
+      1    0.0%    1.2%  LazyCompile: *codePointAtPos C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:1979:17
+      1    0.0%    1.2%  LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+      1    0.0%    1.2%  LazyCompile: *buffer C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:203:19
+      1    0.0%    1.2%  LazyCompile: *attributeValue C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1312:27
+      1    0.0%    1.2%  Function: ^trim_prefix C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\express\lib\router\index.js:288:23
+      1    0.0%    1.2%  Function: ^socketListenerWrap node:_http_server:1006:37
+      1    0.0%    1.2%  Function: ^session C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\express-session\index.js:179:26
+      1    0.0%    1.2%  Function: ^serveStatic C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\serve-static\index.js:72:31
+      1    0.0%    1.2%  Function: ^parseMaybeConditional C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:12256:24
+      1    0.0%    1.2%  Function: ^parse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:110:20
+      1    0.0%    1.2%  Function: ^parse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\cookie\index.js:48:15
+      1    0.0%    1.2%  Function: ^ondata node:internal/streams/readable:752:18
+      1    0.0%    1.2%  Function: ^initialize C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\passport\lib\middleware\initialize.js:51:29
+      1    0.0%    1.2%  Function: ^code C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1132:17
+      1    0.0%    1.2%  Function: ^allocate node:buffer:398:18
+      1    0.0%    1.2%  Function: ^Immediate node:internal/timers:602:14
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+     78    0.5%   95.1%  JavaScript
+      0    0.0%    0.0%  C++
+     35    0.2%   42.7%  GC
+  14935   99.5%          Shared libraries
+      4    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  14082   93.8%  C:\WINDOWS\SYSTEM32\ntdll.dll
+
+    850    5.7%  C:\Program Files\nodejs\node.exe
+    523   61.5%    C:\Program Files\nodejs\node.exe
+     61   11.7%      Function: ^compileFunction node:vm:308:25
+     60   98.4%        Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+     44   73.3%          Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+     42   95.5%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      2    4.5%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     16   26.7%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1059:37
+     16  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1    1.6%        LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1017:18
+      1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     33    6.3%      Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:10:13
+     33  100.0%        Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:85:18
+     25   75.8%          Function: ^loadString C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-load\index.js:49:34
+     25  100.0%            Function: ^compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      8   24.2%          LazyCompile: *compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      8  100.0%            Function: ^exports.compile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:264:27
+     31    5.9%      Function: ^openSync node:fs:576:18
+     31  100.0%        Function: ^readFileSync node:fs:450:22
+     23   74.2%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     20   87.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      3   13.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      8   25.8%          Function: ^handleTemplateCache C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:236:29
+      8  100.0%            Function: ^exports.renderFile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:436:30
+     29    5.5%      LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+     28   96.6%        LazyCompile: *advance C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1656:20
+     23   82.1%          LazyCompile: *getTokens C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1704:22
+     23  100.0%            Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:10:13
+      5   17.9%          LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+      5  100.0%            Function: ^getTokens C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1704:22
+      1    3.4%        Function: ^getTokens C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1704:22
+      1  100.0%          Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:10:13
+      1  100.0%            Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:85:18
+     28    5.4%      Function: ^realpathSync node:fs:2425:22
+     22   78.6%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+     22  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+     19   86.4%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      3   13.6%            Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      6   21.4%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      6  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      5   83.3%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1   16.7%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     23    4.4%      Function: ^stat node:internal/modules/cjs/loader:151:14
+     12   52.2%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+     12  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+     12  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+     11   47.8%        Function: ^tryFile node:internal/modules/cjs/loader:384:17
+     11  100.0%          Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+     11  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+     20    3.8%      Function: ^parse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-parser\index.js:10:15
+     20  100.0%        Function: ^parse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:110:20
+     16   80.0%          Function: ^loadString C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-load\index.js:49:34
+     15   93.8%            Function: ^compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      1    6.3%            LazyCompile: ~compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      4   20.0%          LazyCompile: *compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      4  100.0%            Function: ^exports.compile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:264:27
+     17    3.3%      Function: ^load C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-load\index.js:9:14
+     13   76.5%        Function: ^loadString C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-load\index.js:49:34
+     13  100.0%          Function: ^compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+     13  100.0%            Function: ^exports.compile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:264:27
+      4   23.5%        LazyCompile: *compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      4  100.0%          Function: ^exports.compile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:264:27
+      4  100.0%            Function: ^handleTemplateCache C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:236:29
+     16    3.1%      C:\Program Files\nodejs\node.exe
+      3   18.8%        LazyCompile: *Parser C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\acorn\dist\acorn.js:470:31
+      3  100.0%          LazyCompile: *isExpression C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\is-expression\index.js:14:22
+      3  100.0%            Function: ^isExpression C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:75:25
+      2   12.5%        Function: ^splitRoot node:fs:2375:33
+      2  100.0%          Function: ^realpathSync node:fs:2425:22
+      2  100.0%            Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      2   12.5%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    6.3%        LazyCompile: ~g C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@faker-js\faker\dist\cjs\utils\mersenne.js:1:202
+      1  100.0%          LazyCompile: ~b C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@faker-js\faker\dist\cjs\utils\mersenne.js:1:375
+      1  100.0%            Function: ~<anonymous> C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@faker-js\faker\dist\cjs\utils\mersenne.js:1:1
+      1    6.3%        LazyCompile: ~createToken C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@mapbox\node-pre-gyp\node_modules\semver\internal\re.js:11:21
+      1  100.0%          Function: ~<anonymous> C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@mapbox\node-pre-gyp\node_modules\semver\internal\re.js:1:1
+      1  100.0%            LazyCompile: *Module._compile node:internal/modules/cjs/loader:1059:37
+      1    6.3%        LazyCompile: ~callSiteToString C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\depd\lib\compat\index.js:21:76
+      1  100.0%          LazyCompile: ~get C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\depd\lib\compat\index.js:54:16
+      1  100.0%            Function: ~<anonymous> C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\depd\index.js:1:1
+      1    6.3%        LazyCompile: ~append C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\vary\index.js:38:17
+      1  100.0%          LazyCompile: ~vary C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\vary\index.js:133:15
+      1  100.0%            LazyCompile: ~onResponseHeaders C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\compression\index.js:140:47
+      1    6.3%        LazyCompile: ~abbrev C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\abbrev\abbrev.js:17:17
+      1  100.0%          LazyCompile: ~parse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@mapbox\node-pre-gyp\node_modules\nopt\lib\nopt.js:242:16
+      1  100.0%            LazyCompile: ~nopt C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@mapbox\node-pre-gyp\node_modules\nopt\lib\nopt.js:26:15
+      1    6.3%        LazyCompile: *readNumber C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:2884:13
+      1  100.0%          LazyCompile: *getTokenFromCode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:2494:19
+      1  100.0%            LazyCompile: *next C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\@babel\parser\lib\index.js:1912:7
+      1    6.3%        LazyCompile: *buffer C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:203:19
+      1  100.0%          LazyCompile: *visitTag C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:613:21
+      1  100.0%            LazyCompile: *visitBlock C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:420:23
+      1    6.3%        Function: ^getOwn node:internal/bootstrap/loaders:180:16
+      1  100.0%          Function: ^syncExports node:internal/bootstrap/loaders:287:14
+      1  100.0%            LazyCompile: ~<anonymous> node:internal/bootstrap/loaders:273:15
+      1    6.3%        Function: ^format C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\fecha\lib\fecha.umd.js:246:25
+      1  100.0%          Function: ^<anonymous> C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\logform\timestamp.js:14:25
+      1  100.0%            Function: ^<anonymous> C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\logform\combine.js:17:10
+     14    2.7%      LazyCompile: *parseChar C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\character-parser\index.js:76:19
+      4   28.6%        LazyCompile: *parseUntil C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\character-parser\index.js:47:20
+      4  100.0%          Function: ^bracketExpression C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:245:30
+      3   75.0%            LazyCompile: *attrs C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1440:18
+      1   25.0%            Function: ^attrs C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1440:18
+      4   28.6%        LazyCompile: *parse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\character-parser\index.js:28:15
+      4  100.0%          Function: ^assertNestingCorrect C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:100:33
+      3   75.0%            LazyCompile: *attrs C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1440:18
+      1   25.0%            Function: ^attrs C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1440:18
+      3   21.4%        LazyCompile: *attributeValue C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1312:27
+      3  100.0%          LazyCompile: *attribute C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1216:22
+      2   66.7%            LazyCompile: *attrs C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1440:18
+      1   33.3%            Function: ^attrs C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1440:18
+      3   21.4%        LazyCompile: *addText C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:499:20
+      3  100.0%          Function: ^text C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:647:17
+      3  100.0%            LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+     12    2.3%      Function: ^handleWriteReq node:internal/stream_base_commons:45:24
+     12  100.0%        Function: ^writeGeneric node:internal/stream_base_commons:147:22
+     11   91.7%          Function: ^Socket._writeGeneric node:net:791:42
+     11  100.0%            Function: ^Socket._write node:net:828:35
+      1    8.3%          LazyCompile: *_write node:internal/streams/writable:283:16
+      1  100.0%            Function: ^Writable.write node:internal/streams/writable:333:36
+     10    1.9%      Function: ^read node:internal/modules/package_json_reader:16:14
+      9   90.0%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      4   44.4%          Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      4  100.0%            LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      3   33.3%          Function: ^resolveExports node:internal/modules/cjs/loader:472:24
+      3  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      2   22.2%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      2  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1   10.0%        LazyCompile: *readPackage node:internal/modules/cjs/loader:290:21
+      1  100.0%          Function: ^resolveExports node:internal/modules/cjs/loader:472:24
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      9    1.7%      LazyCompile: *advance C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1656:20
+      7   77.8%        LazyCompile: *getTokens C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1704:22
+      7  100.0%          Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:10:13
+      7  100.0%            Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:85:18
+      2   22.2%        LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+      2  100.0%          Function: ^getTokens C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1704:22
+      2  100.0%            Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:10:13
+      9    1.7%      Function: ^unwrapReturns C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\index.js:127:23
+      9  100.0%        Function: ^addWith C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\index.js:40:17
+      9  100.0%          Function: ^compile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:109:20
+      8   88.9%            Function: ^generateCode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:31:22
+      1   11.1%            LazyCompile: *compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      9    1.7%      Function: ^statSync node:fs:1543:18
+      9  100.0%        Function: ^tryStat C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\express\lib\view.js:174:17
+      9  100.0%          Function: ^resolve C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\express\lib\view.js:146:42
+      9  100.0%            Function: ^lookup C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\express\lib\view.js:104:40
+      6    1.1%      LazyCompile: *buffer C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:203:19
+      3   50.0%        LazyCompile: *visitTag C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:613:21
+      3  100.0%          LazyCompile: *visitBlock C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:420:23
+      3  100.0%            LazyCompile: *visit C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:292:18
+      1   16.7%        Function: ^visitText C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:716:22
+      1  100.0%          LazyCompile: *visit C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:292:18
+      1  100.0%            Function: ^visitBlock C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:420:23
+      1   16.7%        Function: ^visitTag C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:613:21
+      1  100.0%          Function: ^visitNode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:363:22
+      1  100.0%            Function: ^visit C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:292:18
+      1   16.7%        Function: ^bufferName C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:619:24
+      1  100.0%          Function: ^visitTag C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:613:21
+      1  100.0%            Function: ^visitNode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:363:22
+      6    1.1%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      6  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      2   33.3%          Function: ~<anonymous> node:crypto:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1   16.7%          Function: ~<anonymous> node:tls:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1   16.7%          Function: ~<anonymous> node:internal/child_process:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1   16.7%          Function: ~<anonymous> node:http:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1   16.7%          Function: ~<anonymous> node:assert:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     46    5.4%    LazyCompile: *compileFunction node:vm:308:25
+     46  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+     31   67.4%        LazyCompile: *Module._compile node:internal/modules/cjs/loader:1059:37
+     31  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     25   80.6%            LazyCompile: *Module.load node:internal/modules/cjs/loader:969:33
+      6   19.4%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+     15   32.6%        Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+     15  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     15  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+     18    2.1%    LazyCompile: *recurse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\babel-walk\lib\index.js:73:26
+     18  100.0%      LazyCompile: *recurse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\babel-walk\lib\index.js:73:26
+     18  100.0%        LazyCompile: *recurse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\babel-walk\lib\index.js:73:26
+     13   72.2%          LazyCompile: *recurse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\babel-walk\lib\index.js:73:26
+     10   76.9%            LazyCompile: *recurse C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\babel-walk\lib\index.js:73:26
+      3   23.1%            LazyCompile: *findGlobals C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\globals.js:166:21
+      5   27.8%          LazyCompile: *findGlobals C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\globals.js:166:21
+      5  100.0%            Function: ^addWith C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\index.js:40:17
+     13    1.5%    LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+     12   92.3%      LazyCompile: *advance C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1656:20
+      9   75.0%        LazyCompile: *getTokens C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1704:22
+      9  100.0%          Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:10:13
+      9  100.0%            Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:85:18
+      3   25.0%        LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+      3  100.0%          Function: ^getTokens C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1704:22
+      3  100.0%            Function: ^lex C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:10:13
+      1    7.7%      LazyCompile: *addText C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:499:20
+      1  100.0%        Function: ^text C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:647:17
+      1  100.0%          LazyCompile: *callLexerFunction C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1635:30
+      1  100.0%            LazyCompile: *advance C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-lexer\index.js:1656:20
+     11    1.3%    Function: ^unwrapReturns C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\index.js:127:23
+     11  100.0%      Function: ^addWith C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\with\lib\index.js:40:17
+     11  100.0%        Function: ^compile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:109:20
+      8   72.7%          Function: ^generateCode C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug-code-gen\index.js:31:22
+      8  100.0%            Function: ^compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      3   27.3%          LazyCompile: *compileBody C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:77:21
+      3  100.0%            Function: ^exports.compile C:\Users\luisgagm\Documents\Coder House\Full Stack\Backend\Entregables\Clase32\node_modules\pug\lib\index.js:264:27

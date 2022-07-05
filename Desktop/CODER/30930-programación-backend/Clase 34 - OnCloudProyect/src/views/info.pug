@@ -1,0 +1,25 @@
+html
+    head
+        title INFO
+        link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous")
+    body(class="bg-success text-light")
+        div(class="container mt-3")
+            div
+                h1 INFO
+                br
+                br
+                p <strong> Argumentos de entrada: </strong> #{info.args}
+                br
+                p <strong>Nombre de la plataforma (SO): </strong>#{info.nombrePlataforma}
+                br
+                p <strong>Version de node.js: </strong>#{info.verNode} 
+                br
+                p <strong>Memoria total reservada: </strong>#{info.mem}
+                br
+                p <strong>Path de ejecucion: </strong>#{info.pathEjecucion}
+                br
+                p <strong>Process id: </strong>#{info.pid}
+                br
+                p <strong>Cantidad de Procesadores: </strong>#{info.procesadores}
+                br
+                p <strong>Carpeta del proyecto: </strong>#{info.carpetaProy}
