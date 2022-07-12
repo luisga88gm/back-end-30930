@@ -1,0 +1,8 @@
+div(class="container bg-secondary mt-3")
+    form(action="/api/auth/logout" method="post")
+        button(class="btn btn-danger float-end mt-2") Desloguear
+    form(action=`/api/carrito/${user.carrito}/detalle` method="get")
+        button(class="btn btn-success float-end mt-2") Ver Carrito
+    form(action=`/api/auth/${user._id}` method="get")
+        button(class="btn btn-primary float-end mt-2") Perfil
+    h1 Bienvenido #{user.email}!
