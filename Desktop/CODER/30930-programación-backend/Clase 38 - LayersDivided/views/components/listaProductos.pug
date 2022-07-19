@@ -1,0 +1,16 @@
+
+form(id="formProdVacio" class="ms-4 mt-5" style="visible:false")
+    table(class="table table-dark table-striped ms-5 px-2 mt-5 align-middle" style="width:40%;")
+        tbody 
+            tr
+                th(id="id" class="fs-4") ID 
+                th(id="title" class="fs-4") TITULO
+                th(id="precio" class="fs-4") PRECIO 
+                th(id="thumbnail" class="fs-4") FOTO
+            each prod in productos
+                tr
+                    td(class="fs-5")=prod.id 
+                    td(class="fs-5")=prod.nombre 
+                    td(class="fs-5")='$'+prod.precio 
+                    td
+                        img(src=prod.thumbnail class="img-thumbnail" alt=prod.nombre)
